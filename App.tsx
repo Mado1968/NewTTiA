@@ -45,7 +45,7 @@ const App: React.FC = () => {
         </div>
 
         {/* --- HERO SECTION (Separated) --- */}
-        <div className="absolute top-[15vh] left-1/2 -translate-x-1/2 text-center z-20 w-full max-w-4xl px-4 pointer-events-none">
+        <div className="absolute top-[10vh] left-1/2 -translate-x-1/2 text-center z-20 w-full max-w-4xl px-4 pointer-events-none">
           <div className="font-mono text-ttia-orange text-xs tracking-[0.3em] mb-4 animate-[fadeIn_1s_ease-out]">
               SYSTEM ARCHITECTS
           </div>
@@ -73,13 +73,19 @@ const App: React.FC = () => {
           const duration = 4 + (randomVal * 4); // Between 4s and 8s
           const delay = randomVal * -5; // Negative delay to start at random points in cycle
 
+          // Center and offset logic
+          // 1. Shift items down to start below hero (Hero is at 10vh, we start shapes at +50vh offset)
+          // 2. Compress horizontal spread to center them (0.6x multiplier pulls items towards center)
+          const centeredX = 50 + (item.x - 50) * 0.6;
+          const offsetY = item.y + 50;
+
           return (
             <div
               key={item.id}
               className="absolute z-10 group"
               style={{
-                top: `${item.y}vh`, // Use Viewport Height for vertical spacing
-                left: `${item.x}%`, 
+                top: `${offsetY}vh`, 
+                left: `${centeredX}%`, 
                 transform: `translateY(${-yOffset}px) rotate(${item.rotation || 0}deg) scale(${item.size})`,
                 cursor: item.contentType !== 'decorative' ? 'pointer' : 'default',
               }}
