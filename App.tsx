@@ -59,7 +59,7 @@ const App: React.FC = () => {
             We build the digital nervous system for modern enterprises.
           </p>
           <div className="mt-8 text-xs font-mono text-gray-400 animate-pulse">
-            SCROLL TO EXPLORE >>
+            SCROLL TO EXPLORE 
           </div>
         </div>
 
