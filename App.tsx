@@ -61,7 +61,7 @@ const App: React.FC = () => {
         </div>
 
         {/* --- HERO SECTION (Separated) --- */}
-        <div ref={heroRef} className="absolute top-[10vh] left-1/2 -translate-x-1/2 text-center z-20 w-full max-w-4xl px-4 pointer-events-none">
+        <div ref={heroRef} className="absolute top-[10vh] left-1/2 -translate-x-1/2 text-center z-20 w-full max-w-4xl px-4 pointer-events-none margin bottom-0.9">
           <div className="font-mono text-ttia-orange text-xs tracking-[0.3em] mb-4 animate-[fadeIn_1s_ease-out]">
               TTiA
           </div>
