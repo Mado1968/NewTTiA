@@ -63,12 +63,12 @@ const App: React.FC = () => {
         {/* --- HERO SECTION (Separated) --- */}
         <div ref={heroRef} className="absolute top-[10vh] left-1/2 -translate-x-1/2 text-center z-20 w-full max-w-4xl px-4 pointer-events-none margin bottom-0.9">
           <div className="font-mono text-ttia-orange text-xs tracking-[0.3em] mb-4 animate-[fadeIn_1s_ease-out]">
-              TTiA
+              
           </div>
           <h1 className="text-6xl md:text-8xl font-display font-bold text-ttia-black leading-[0.85] tracking-tighter animate-[slideUp_1s_ease-out]">
-            MCP servers <br/>
+           
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ttia-green to-ttia-dark">
-              and drive digital transformation strategies
+             Context for LLM's.    Digital transformation.  Strategies.
             </span>
           </h1>
           <p className="mt-8 text-xl text-gray-500 font-light mx-auto max-w-lg animate-[slideUp_1.2s_ease-out]">
