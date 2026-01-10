@@ -7,7 +7,7 @@ export const Navbar: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         {/* Logo - Pointer events auto to allow clicking */}
         <a href="#" className="flex items-center gap-2 ">
-          <div className="relative w-15 h-8 flex items-center justify-center bg-ttia-white rounded-full text-white">
+          <div className="relative w-8 h-8 flex items-center justify-center bg-ttia-white rounded-full text-white">
             {<img src="/assets/ttia_New.png" alt="Logo"/>/* Logo */}
           </div>
           <span className="text-lg font-bold font-mono tracking-tighter text-ttia-white color-white ">

@@ -68,8 +68,13 @@ const App: React.FC = () => {
           <h1 className="text-6xl md:text-8xl font-display font-bold text-ttia-black leading-[0.85] tracking-tighter animate-[slideUp_1s_ease-out]">
            
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ttia-green to-ttia-dark">
-             Context for LLM's.    Digital transformation.  Strategies.
+             Context for LLM's.
+           
             </span>
+             <span className="text-transparent bg-clip-text bg-gradient-to-r from-ttia-green to-ttia-dark">
+  Digital transformation strategies.
+             </span>
+            
           </h1>
           <p className="mt-8 text-xl text-gray-500 font-light mx-auto max-w-lg animate-[slideUp_1.2s_ease-out]">
              for forward-thinking businesses
