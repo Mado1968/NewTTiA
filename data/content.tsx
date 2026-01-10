@@ -10,12 +10,12 @@ export const scatterItems: ScatterItem[] = [
     size: 1.2,
     speed: 0.4,
     shape: 'square',
-    label: 'MCP Servers',
+    label: 'MCP Servers & Skills',
     contentType: 'service',
     rotation: 15,
     isFilled: true,
     contentData: {
-      title: 'MCP Architecture',
+      title: 'MCP & Skills -- Context',
       description: 'We build Model Context Protocol servers that empower your AI agents to interact safely and efficiently with your data and tools.',
       tags: ['AI', 'Infrastructure', 'Protocol']
     }
@@ -27,12 +27,12 @@ export const scatterItems: ScatterItem[] = [
     size: 1.5,
     speed: 0.2,
     shape: 'arch',
-    label: 'Transformation',
+    label: 'Custom GPT',
     contentType: 'service',
     isFilled: true,
     contentData: {
-      title: 'Digital Transformation',
-      description: 'Strategic consulting to modernize your legacy systems, improving operational efficiency through cutting-edge digital solutions.',
+      title: 'Custom GPT',
+      description: 'We define all the pourposes, limits and way to work of your GPT.',
       tags: ['Strategy', 'Modernization']
     }
   },
@@ -43,13 +43,13 @@ export const scatterItems: ScatterItem[] = [
     size: 1.1,
     speed: 0.6,
     shape: 'circle',
-    label: 'Integration',
+    label: 'Automation',
     contentType: 'service',
     isFilled: false,
     contentData: {
-      title: 'System Integration',
-      description: 'Seamlessly connect and orchestrate disparate software solutions into a unified, powerful ecosystem.',
-      tags: ['API', 'Orchestration']
+      title: 'Automation',
+      description: 'We create automations form simple tasks to reposts, and analysis.',
+      tags: ['Automation', 'Orchestration']
     }
   },
   
