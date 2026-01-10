@@ -73,7 +73,7 @@ export const Hero: React.FC = () => {
               <div className="p-4 bg-ttia-dark/50 rounded border border-ttia-cream/5 mt-4">
                 <code className="text-xs text-ttia-green block mb-1">// Initializing context bridge...</code>
                 <code className="text-xs text-ttia-cream block mb-1">Loading modules [Transformation, AI, Logic]</code>
-                <code className="text-xs text-ttia-orange block">>> System ready.</code>
+                <code className="text-xs text-ttia-orange block"> System ready.</code>
               </div>
             </div>
 

@@ -49,7 +49,7 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative min-h-[300vh] selection:bg-ttia-orange selection:text-white">
+    <div className="relative min-h-[400vh] selection:bg-ttia-orange selection:text-white">
       <Navbar />
 
       {/* Main Scatter Field */}
@@ -150,7 +150,7 @@ const App: React.FC = () => {
         })}
 
         {/* Padding for scroll */}
-        <div className="h-[20vh]" style={{ marginTop: '220vh' }}></div>
+        <div className="h-[20vh]" style={{ marginTop: '120vh' }}></div>
       </main>
 
       {/* Modal Overlay */}
@@ -161,7 +161,7 @@ const App: React.FC = () => {
         />
       )}
 
-      <div className="relative z-20 bg-white">
+      <div className="relative z-20 ">
         <Footer />
       </div>
     </div>

@@ -61,13 +61,13 @@ export const scatterItems: ScatterItem[] = [
     size: 0.8,
     speed: 0.3,
     shape: 'triangle',
-    label: 'Starter Plan',
-    contentType: 'pricing',
+    label: 'Chat Bot',
+    contentType: 'service',
     isFilled: true,
     rotation: -15,
     contentData: {
-      name: 'Starter',
-      price: '$950',
+      name: 'Chat bots for automate responses by mail or by phone',
+      price: '',
       features: ['Basic MCP Server Setup', 'Initial Consultation', 'Standard Support', '1 Month Maintenance']
     }
   },
@@ -126,8 +126,8 @@ export const scatterItems: ScatterItem[] = [
   { id: 'dec-2', x: 68, y: 10, size: 0.6, speed: 0.9, shape: 'circle', contentType: 'decorative' },
   { id: 'dec-3', x: 42, y: 25, size: 0.4, speed: 0.2, shape: 'square', contentType: 'decorative', rotation: 45 },
   { id: 'dec-4', x: 38, y: 160, size: 0.7, speed: 0.7, shape: 'triangle', contentType: 'decorative', rotation: 180 },
-  { id: 'dec-5', x: 58, y: 100, size: 0.5, speed: 0.4, shape: 'rect-h', contentType: 'decorative' },
-  { id: 'dec-6', x: 30, y: 130, size: 0.6, speed: 0.6, shape: 'hex', contentType: 'decorative' },
-  { id: 'dec-7', x: 70, y: 50, size: 0.4, speed: 0.3, shape: 'cross', contentType: 'decorative' },
+  { id: 'dec-5', x: 58, y: 100, size: 0.5, speed: 0.4, shape: 'rect-h', contentType: 'decorative', rotation: 180 },
+  { id: 'dec-6', x: 30, y: 130, size: 0.6, speed: 0.6, shape: 'hex', contentType: 'decorative', rotation: 180 },
+  { id: 'dec-7', x: 70, y: 50, size: 0.4, speed: 0.3, shape: 'cross', contentType: 'decorative',rotation: 180  },
   { id: 'dec-8', x: 48, y: 80, size: 0.3, speed: 1.2, shape: 'circle', contentType: 'decorative', isFilled: true },
 ];
