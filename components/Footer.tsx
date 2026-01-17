@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrainCircuit, Twitter, Linkedin, Github } from 'lucide-react';
+import {  Linkedin, Github, Facebook } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -8,9 +8,9 @@ export const Footer: React.FC = () => {
         <div className="grid md:grid-cols-4 gap-12 mb-12">
           <div className="col-span-1 md:col-span-1">
             <div className="flex items-center gap-2 mb-6">
-              <div className="w-8 h-8 flex items-center justify-center bg-ttia-red rounded-full text-ttia-dark">
-                 <BrainCircuit size={18} />
-              </div>
+              <div className="relative w-20 h-20 flex items-center justify-center bg-ttia-white rounded-full text-white">
+            {<img src="/assets/ttia_New_2026_TRANS.png" alt="Logo" className="w-full h-full object-cover rounded-full"/>/* Logo */}
+          </div>
               <span className="text-xl font-bold font-display tracking-wider text-ttia-cream">
                 TTiA
               </span>
@@ -42,9 +42,10 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-ttia-cream font-bold mb-6">Social</h4>
             <div className="flex gap-4">
-              <a href="#" className="p-2 bg-ttia-dark rounded-full text-ttia-cream/60 hover:text-ttia-red hover:bg-ttia-cream transition-all">
-                <Twitter size={18} />
+              <a href="https://www.facebook.com/profile.php?id=61584387744784" target="_blank" rel="noopener noreferrer"className="p-2 bg-ttia-dark rounded-full text-ttia-cream/60 hover:text-ttia-red hover:bg-ttia-cream transition-all">
+                <Facebook size={18} />
               </a>
+              
               <a href="#" className="p-2 bg-ttia-dark rounded-full text-ttia-cream/60 hover:text-ttia-red hover:bg-ttia-cream transition-all">
                 <Linkedin size={18} />
               </a>
