@@ -46,4 +46,5 @@ export interface ScatterItem {
   contentData?: any; // Data to show in modal
   rotation?: number;
   isFilled?: boolean;
+  color?: string;
 }

@@ -65,6 +65,7 @@ export const scatterItems: ScatterItem[] = [
     contentType: 'service',
     isFilled: true,
     rotation: -15,
+    color: '#FF6B6B', 
     contentData: {
       name: 'Chat bots for automate responses by mail or by phone',
       price: '',
@@ -81,6 +82,7 @@ export const scatterItems: ScatterItem[] = [
     label: 'Pro Plan',
     contentType: 'pricing',
     isFilled: true,
+    color: '#FF6B6B', 
     contentData: {
       name: 'Professional',
       price: '$2,450',
@@ -100,6 +102,7 @@ export const scatterItems: ScatterItem[] = [
     label: 'Who We Are',
     contentType: 'about',
     isFilled: true,
+    color: '#FF6B6B', 
     contentData: {
       title: 'The Philosophy',
       text: "TTiA was founded on a simple premise: Technology should amplify human potential, not replace it. We are a team of engineers, strategists, and designers dedicated to building the backbone of the next digital era."
@@ -124,10 +127,10 @@ export const scatterItems: ScatterItem[] = [
   // --- DECORATIVE / FILLER SHAPES ---
   { id: 'dec-1', x: 32, y: 5, size: 0.5, speed: 0.8, shape: 'cross', contentType: 'decorative' },
   { id: 'dec-2', x: 68, y: 10, size: 0.6, speed: 0.9, shape: 'circle', contentType: 'decorative' },
-  { id: 'dec-3', x: 42, y: 25, size: 0.4, speed: 0.2, shape: 'square', contentType: 'decorative', rotation: 45 },
+  { id: 'dec-3', x: 42, y: 25, size: 0.8, speed: 0.2, shape: 'square', contentType: 'decorative', rotation: 45 },
   { id: 'dec-4', x: 38, y: 160, size: 0.7, speed: 0.7, shape: 'triangle', contentType: 'decorative', rotation: 180 },
   { id: 'dec-5', x: 58, y: 100, size: 0.5, speed: 0.4, shape: 'rect-h', contentType: 'decorative', rotation: 180 },
   { id: 'dec-6', x: 30, y: 130, size: 0.6, speed: 0.6, shape: 'hex', contentType: 'decorative', rotation: 180 },
-  { id: 'dec-7', x: 70, y: 50, size: 0.4, speed: 0.3, shape: 'cross', contentType: 'decorative',rotation: 180  },
-  { id: 'dec-8', x: 48, y: 80, size: 0.3, speed: 1.2, shape: 'circle', contentType: 'decorative', isFilled: true },
+  { id: 'dec-7', x: 70, y: 50, size: 0.9, speed: 0.3, shape: 'cross', contentType: 'decorative',rotation: 180  },
+  { id: 'dec-8', x: 48, y: 80, size: 0.8, speed: 1.2, shape: 'circle', contentType: 'decorative', isFilled: true },
 ];

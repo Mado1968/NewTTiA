@@ -67,7 +67,7 @@ const App: React.FC = () => {
           </div>
           <h1 className="text-6xl md:text-8xl font-display font-bold text-ttia-black leading-[0.85] tracking-tighter animate-[slideUp_1s_ease-out]">
            
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-ttia-red to-ttia-dark">
+            <span className="text-transparent bg-clip-text bg-ttia-red ">
              Context for AI.
            
             </span>
@@ -97,7 +97,7 @@ const App: React.FC = () => {
           // Vertical: compress y-values with 0.4 multiplier to group them vertically too
           const centerX = 50;
           const centerY = 70;
-          const centeredX = centerX + (item.x - 50) * 0.3;
+          const centeredX = centerX + (item.x - 50) * 0.9;
           const offsetY = (item.y - 70) * 0.4; // now a relative vertical offset
 
           // top position in vh: start after hero bottom + relative offset
